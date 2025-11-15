@@ -1,0 +1,14 @@
+type: drill
+name: "Электрический бур"
+description: "Сверхбыстрая добыча, но огромный расход энергии."
+size: 2
+tier: 7
+drillTime: 70
+itemCapacity: 50
+requirements: [
+  silicon/80
+  titanium/80
+  plastanium/30
+]
+consumes: {power: 5}
+category: production

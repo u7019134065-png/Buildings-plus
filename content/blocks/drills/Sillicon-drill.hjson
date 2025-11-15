@@ -1,0 +1,13 @@
+type: drill
+name: "Кремниевый бур"
+description: "Работает быстрее обычного."
+size: 2
+tier: 5
+drillTime: 200
+itemCapacity: 35
+requirements: [
+  silicon/50
+  titanium/30
+]
+consumes: {power: 0.8}
+category: production

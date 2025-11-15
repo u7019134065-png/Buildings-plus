@@ -1,0 +1,13 @@
+type: drill
+name: "Ториевый бур"
+description: "Очень мощный бур высокого ранга."
+size: 3
+tier: 6
+drillTime: 160
+itemCapacity: 40
+requirements: [
+  thorium/80
+  plastanium/40
+]
+consumes: {power: 1.6}
+category: production

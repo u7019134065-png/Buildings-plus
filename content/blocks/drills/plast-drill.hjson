@@ -1,0 +1,13 @@
+type: drill
+name: "Пластановый бур"
+description: "Невероятно лёгкий и быстрый."
+size: 2
+tier: 6
+drillTime: 120
+itemCapacity: 40
+requirements: [
+  plastanium/70
+  silicon/50
+]
+consumes: {power: 1.2}
+category: production

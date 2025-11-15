@@ -1,0 +1,13 @@
+type: drill
+name: "Титуновый бур"
+description: "Редкий экспериментальный бур."
+size: 3
+tier: 2
+drillTime: 140
+itemCapacity: 45
+requirements: [
+  titanium/90
+  surge-alloy/40
+]
+consumes: {power: 1.8}
+category: production

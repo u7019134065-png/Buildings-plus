@@ -1,0 +1,14 @@
+type: drill
+name: "Графитный бур"
+description: "Крепкий бур средней скорости."
+size: 2
+tier: 2
+drillTime: 250
+itemCapacity: 30
+requirements: [
+  graphite/40
+  titanium/20
+  silicon/20
+]
+consumes: {power: 0.5}
+category: production

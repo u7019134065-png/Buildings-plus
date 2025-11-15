@@ -1,0 +1,13 @@
+type: drill
+name: "Пиротитный бур"
+description: "Работает при высокой температуре."
+size: 2
+tier: 3
+drillTime: 230
+itemCapacity: 30
+requirements: [
+  pyratite/60
+  lead/40
+]
+consumes: {power: 0.4}
+category: production
