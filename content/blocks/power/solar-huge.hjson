@@ -1,0 +1,11 @@
+type: SolarGenerator
+name: "Огромная солнечная панель"
+description: "Катастрофически много энергии!"
+size: 3
+health: 1200
+powerProduction: 20
+requirements: [
+  silicon/200
+  titanium/100
+]
+category: power

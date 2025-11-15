@@ -1,0 +1,11 @@
+type: SolarGenerator
+name: "Маленькая солнечная панель"
+description: "Производит немного энергии от солнца."
+size: 1
+health: 250
+powerProduction: 1
+requirements: [
+  silicon/20
+  copper/10
+]
+category: power

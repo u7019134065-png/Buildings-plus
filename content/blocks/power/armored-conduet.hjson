@@ -1,0 +1,11 @@
+type: powernode
+name: "Бронированный проводник"
+description: "Прочный провод, почти не ломается."
+size: 1
+health: 600
+transfer: 20
+requirements: [
+  titanium/50
+  lead/30
+]
+category: power

@@ -1,0 +1,11 @@
+type: SolarGenerator
+name: "Средняя солнечная панель"
+description: "Производит среднее количество энергии."
+size: 3
+health: 400
+powerProduction: 4
+requirements: [
+  silicon/50
+  copper/20
+]
+category: power
