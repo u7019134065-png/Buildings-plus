@@ -1,0 +1,27 @@
+name: graphite-pomp
+localizedName: "графитная помпа"
+description: "Простая графитная помпа."
+type: pump
+size: 1
+health: 120
+
+// скорость перекачки жидкости (в единицах/тик)
+pumpAmount: 0.3
+
+// потребляет ли энергию? нет
+hasPower: false
+
+// максимальное количество жидкости, что может хранить
+liquidCapacity: 25
+
+// визуальное вращение (анимация)
+rotateSpeed: 1.2
+
+// стоимость в крафте
+requirements: [
+  { item: copper, amount: 25 }
+  { item: lead, amount: 20 }
+]
+
+category: liquid
+research: pump
