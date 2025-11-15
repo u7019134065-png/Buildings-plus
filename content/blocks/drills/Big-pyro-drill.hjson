@@ -1,0 +1,12 @@
+type: drill
+name: "Большой пиротитовый бур"
+description: "Большой пиротитовый бур из пиротита"
+size: 4
+tier: 4
+drillTime: 230
+itemCapacity: 30
+requirements: [
+  pyratite/240
+]
+consumes: {power: 0.4}
+category: production

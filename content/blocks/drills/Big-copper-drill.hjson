@@ -1,0 +1,12 @@
+type: drill
+name: "Большой медный бур"
+description: "Большой медный бур"
+size: 4
+tier: 4
+drillTime: 230
+itemCapacity: 30
+requirements: [
+  copper/240
+]
+consumes: {power: 0.4}
+category: production

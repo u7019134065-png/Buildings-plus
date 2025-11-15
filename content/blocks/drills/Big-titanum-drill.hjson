@@ -1,0 +1,12 @@
+type: drill
+name: "Большой титановый бур"
+description: "Большой титановый бур"
+size: 4
+tier: 5
+drillTime: 230
+itemCapacity: 30
+requirements: [
+  pyratite/240
+]
+consumes: {power: 0.4}
+category: production

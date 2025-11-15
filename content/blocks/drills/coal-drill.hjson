@@ -1,0 +1,12 @@
+type: drill
+name: "Угольный бур"
+description: "Работает при горении угля"
+size: 2
+tier: 3
+drillTime: 230
+itemCapacity: 30
+requirements: [
+  coal/60
+]
+consumes: {power: 0.4}
+category: production

@@ -1,0 +1,12 @@
+type: drill
+name: "большой Ториевый бур"
+description: "Большой ториевый бур"
+size: 4
+tier: 5
+drillTime: 230
+itemCapacity: 30
+requirements: [
+  thorium/240
+]
+consumes: {power: 0.4}
+category: production

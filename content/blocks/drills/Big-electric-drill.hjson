@@ -1,0 +1,12 @@
+type: drill
+name: "Большой электричсекий бур"
+description: "Большой електричсекий бур на електричсетве"
+size: 4
+tier: 7
+drillTime: 230
+itemCapacity: 30
+requirements: [
+  copper/240
+]
+consumes: {power: 0.4}
+category: production
