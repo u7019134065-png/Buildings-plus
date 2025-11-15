@@ -1,0 +1,23 @@
+name: graphite-tank
+localizedName: "графитный вакум"
+description: "Большая ёмкость для хранения жидкости."
+type: liquidTank
+size: 2
+health: 450
+
+// Вместимость жидкости (можешь увеличивать)
+liquidCapacity: 500
+
+// Может ли принимать жидкость со всех сторон
+liquidPressure: 1.1
+
+// Пропускная способность (насколько быстро закачивает/выкачивает)
+outputLiquids: true
+outputsLiquid: true
+
+requirements: [
+  { item: graphite, amout: 120 }
+]
+
+category: liquid
+research: liquid-tank
