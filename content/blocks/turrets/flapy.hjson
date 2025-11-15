@@ -1,0 +1,26 @@
+type: itemTurret
+name: "flapy"
+description: "Турель с малым уроном но среднем радиусом"
+size: 3
+health: 2100
+reload: 25
+range: 100
+inaccuracy: 1
+rotateSpeed: 5
+
+requirements: [
+  lead/60
+  copper/80
+]
+
+ammoTypes: {
+  lead: {
+      speed: 3
+      damage: 2
+      width: 9
+      height: 13
+      lifetime: 50
+  }
+}
+
+category: turret

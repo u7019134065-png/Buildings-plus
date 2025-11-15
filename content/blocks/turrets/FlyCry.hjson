@@ -1,0 +1,28 @@
+type: itemTurret
+name: "[red]fly-[blue]cry"
+description: "Тяжёлая турель мощного пробития."
+size: 5
+health: 2100
+reload: 45
+range: 150
+inaccuracy: 1
+rotateSpeed: 8
+
+requirements: [
+  titanium/120
+  plastanium/60
+  silicon/80
+]
+
+ammoTypes: {
+  plastanium: {
+      speed: 200
+      damage: 100
+      width: 9
+      height: 13
+      lifetime: 50
+  }
+}
+
+consumes: {power: 2.5}
+category: turret

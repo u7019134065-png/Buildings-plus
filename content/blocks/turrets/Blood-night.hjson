@@ -1,0 +1,27 @@
+type: itemTurret
+name: "blood-night"
+description: "Турель с большим напором крови"
+size: 3
+health: 2100
+reload: 12
+range: 220
+inaccuracy: 1
+rotateSpeed: 4
+
+requirements: [
+  lead/60
+  copper/80
+  coal/30
+]
+
+ammoTypes: {
+  thorium: {
+      speed: 10
+      damage: 6
+      width: 9
+      height: 13
+      lifetime: 50
+  }
+}
+
+category: turret

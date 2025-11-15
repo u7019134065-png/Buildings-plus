@@ -1,0 +1,26 @@
+type: itemTurret
+name: "ShortDamage"
+description: "Турель с малым радиусом и уроном но большой скоростью"
+size: 2
+health: 500
+reload: 5
+range: 50
+inaccuracy: 1
+rotateSpeed: 6
+
+requirements: [
+  lead/120
+  copper/250
+]
+
+ammoTypes: {
+  copper: {
+      speed: 6
+      damage: 3
+      width: 9
+      height: 13
+      lifetime: 50
+  }
+}
+
+category: turret

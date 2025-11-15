@@ -1,0 +1,28 @@
+type: itemTurret
+name: "radius-turret"
+description: "Турель с большим радиусом и уроном но сильным потреблением електричества"
+size: 3
+health: 100
+reload: 100
+range: 800
+inaccuracy: 1
+rotateSpeed: 9
+
+requirements: [
+  lead/60
+  copper/80
+  coal/30
+  plastanium/50
+]
+
+ammoTypes: {
+  copper: {
+      speed: 10
+      damage: 9
+      width: 9
+      height: 13
+      lifetime: 50
+  }
+}
+
+category: turret

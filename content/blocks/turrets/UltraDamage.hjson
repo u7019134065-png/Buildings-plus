@@ -1,0 +1,27 @@
+type: itemTurret
+name: "Ultra-damage"
+description: "Оружие с мощным уроном и большим радиусом."
+size: 4
+health: 2100
+reload: 45
+range: 220
+inaccuracy: 1
+rotateSpeed: 3
+
+requirements: [
+  titanium/120
+  silicon/80
+]
+
+ammoTypes: {
+  plastanium: {
+      speed: 4
+      damage: 300
+      width: 9
+      height: 13
+      lifetime: 50
+  }
+}
+
+consumes: {power: 2.5}
+category: turret

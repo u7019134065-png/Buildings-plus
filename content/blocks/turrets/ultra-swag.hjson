@@ -1,0 +1,29 @@
+type: itemTurret
+name: "Ultra-swag"
+description: "Тяжёлая турель мощного пробития."
+size: 3
+health: 2100
+reload: 45
+range: 220
+inaccuracy: 1
+rotateSpeed: 3
+
+requirements: [
+  titanium/120
+  plastanium/60
+  surge-alloy/40
+  silicon/80
+]
+
+ammoTypes: {
+  graphite: {
+      speed: 4
+      damage: 60
+      width: 9
+      height: 13
+      lifetime: 50
+  }
+}
+
+consumes: {power: 2.5}
+category: turret
