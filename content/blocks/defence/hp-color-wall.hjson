@@ -1,0 +1,21 @@
+name: hp-color-wall
+localizedName: "Стена настроения"
+type: Wall
+size: 1
+health: 1500
+update: true
+
+requirements: [
+  { item: lead, amount: 15 }
+  { item: copper, amount: 30 }
+]
+
+category: defense
+research: lead-wall
+
+# Цвета
+healthColor: {
+  healthy: "#00ff00"   # зелёный
+  damaged: "#ffff00"   # жёлтый
+  critical: "#ff0000"  # красный
+}

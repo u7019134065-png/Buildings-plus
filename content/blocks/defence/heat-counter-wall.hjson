@@ -1,0 +1,24 @@
+name: heat-counter-wall
+localizedName: "Термальная контратака"
+type: Wall
+size: 1
+health: 1800
+update: true
+
+# Параметры тепла
+heatCapacity: 100    # максимум тепла
+heatIncrease: 0.2    # прирост за тик
+heatLoss: 0.0        # не остывает сама
+
+# Контратака
+overheatInstantKill: true
+overheatReset: true
+
+requirements: [
+  { item: graphite, amount: 25 }
+  { item: titanium, amount: 20 }
+  { item: silicon, amount: 10 }
+]
+
+category: defense
+research: graphite-wall

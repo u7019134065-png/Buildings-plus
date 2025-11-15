@@ -1,0 +1,22 @@
+name: damage-to-energy-wall
+localizedName: "Энерго-реактивная стена"
+type: Wall
+size: 1
+health: 1300
+update: true
+
+hasPower: true
+powerCapacity: 6000
+consumePowerBuffered: true
+
+# Генерация энергии при уроне
+damageMultiplier: 1.0     # 1 урон = 1 энергия
+generateEffect: spark
+
+requirements: [
+  { item: lead, amount: 20 }
+  { item: silicon, amount: 15 }
+]
+
+category: defense
+research: lead-wall

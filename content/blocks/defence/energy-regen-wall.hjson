@@ -1,0 +1,36 @@
+name: energy-regen-wall
+localizedName: "Энерго-стена"
+type: Wall
+size: 2
+health: 2200
+update: true
+
+hasPower: true
+consumes: { }
+outputsPower: false
+
+# внутренняя батарея
+powerCapacity: 8000
+consumePowerBuffered: true
+
+# регенерация при наличии энергии
+healAmount: 5          # сколько HP за тик
+healCooldown: 10       # задержка
+requiresPowerToFunction: true
+
+# Поведение
+onPower: {
+  solid: true
+}
+offPower: {
+  solid: false    # становится прозрачной и без коллизии
+}
+
+requirements: [
+  { item: titanium, amount: 40 }
+  { item: silicon, amount: 30 }
+  { item: surge-alloy, amount: 10 }
+]
+
+category: defense
+research: surge-wall

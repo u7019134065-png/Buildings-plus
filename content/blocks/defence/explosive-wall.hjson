@@ -1,0 +1,27 @@
+name: explosive-wall
+localizedName: "Взрывающаяся стена"
+type: Wall
+size: 1
+health: 800
+flammability: 1
+update: true
+
+# визуальный нагрев
+heatColor: "#ff4500" 
+
+requirements: [
+  { item: copper, amount: 20 }
+  { item: graphite, amount: 10 }
+]
+
+category: defense
+research: copper-wall
+
+# Поведение
+consumes: { }
+
+# Скриптовая логика
+# При <15% хп — взрыв
+explosionRadius: 40
+explosionDamage: 300
+destroyOnExplode: true

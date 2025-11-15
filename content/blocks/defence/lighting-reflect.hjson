@@ -1,0 +1,23 @@
+name: lightning-reflect-wall
+localizedName: "Молниевая стена"
+type: Wall
+size: 1
+health: 1200
+update: true
+
+requirements: [
+  { item: silicon, amount: 15 }
+  { item: titanium, amount: 10 }
+]
+
+category: defense
+research: titanium-wall
+
+# Эффекты
+# Количество молний = 1, урон = 20, длина = 18
+lightningChance: 100
+lightningDamage: 20
+lightningLength: 18
+
+# Логика: молния активируется когда стена получает урон
+absorbLasers: false

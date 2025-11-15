@@ -1,0 +1,25 @@
+name: power-wall
+localizedName: "Электростена"
+type: Wall
+size: 1
+health: 1000
+update: true
+
+hasPower: true
+consumes: {
+  power: 2.0   # потребление за тик
+}
+
+requirements: [
+  { item: lead, amount: 25 }
+  { item: silicon, amount: 10 }
+]
+
+category: defense
+research: titanium-wall
+
+# Логика
+# Пока есть энергия — стена твердая
+# Нет энергии — пропускает юнитов и пули
+onPower: { solid: true }
+offPower: { solid: false }

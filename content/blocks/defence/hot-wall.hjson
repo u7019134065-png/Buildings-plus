@@ -1,0 +1,21 @@
+name: hot-wall
+localizedName: "Горячая стена"
+type: Wall
+size: 1
+health: 1000
+update: true
+
+# Радиус нагрева
+heatRadius: 10
+
+# Враги получают эффект "burning" на 60 кадров (1 сек)
+heatStatus: burning
+heatStatusDuration: 60
+
+requirements: [
+  { item: coal, amount: 25 }
+  { item: lead, amount: 10 }
+]
+
+category: defense
+research: coal-wall
