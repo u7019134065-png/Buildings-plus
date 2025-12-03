@@ -1,0 +1,39 @@
+type: flying
+name: miniShahed
+health: 120
+speed: 1.9
+accel: 0.12
+drag: 0.03
+rotateSpeed: 7
+flying: true
+hitSize: 8
+circleTarget: false
+
+weapons: [
+  {
+    name: mini-shahed-gun
+    x: 0        # Пушка ровно спереди
+    y: 6        # Чуть вынесена вперёд
+    rotate: false
+    mirror: false
+    reload: 7.5 # 60 / 7.5 = ~8 выстрелов/сек
+    inaccuracy: 2
+    shootSound: shootSmall
+
+    bullet: {
+      type: basicBulletType
+      speed: 5
+      lifetime: 25
+      damage: 10
+      splashDamage: 25     # радиусный урон
+      splashDamageRadius: 6 # ТВОИ 6 ПЛИТОК
+      knockback: 0.5
+      width: 6
+      height: 10
+      shrinkY: 0
+      shrinkX: 0
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+    }
+  }
+]
