@@ -1,0 +1,28 @@
+type: itemTurret
+name: "[orange]Swar[blue]Mer"
+description: "базовая турель сойдёт для новичков в 1 волны"
+size: 2
+health: 500
+reload: 44
+range: 130
+inaccuracy: 1
+rotateSpeed: 4
+
+requirements: [
+  mood/60
+  copper/80
+  coal/30
+]
+
+ammoTypes: {
+  mood: {
+      speed: 5
+      damage: 10
+      width: 9
+      height: 13
+      lifetime: 50
+  }
+}
+
+category: turret
+research: copper: copper

@@ -1,0 +1,59 @@
+type: LiquidTurret
+name: radioactive-sprayer
+localizedName: "Радиоактивный Распылитель"
+description: "Распрыскивает радиоактивную воду, заражая цели усиливающимся радиоактивным эффектом."
+size: 3
+health: 1600
+reload: 16
+range: 120
+inaccuracy: 2
+rotatespeed: 8
+
+# строительство
+requirements: [
+    {item: titanium, amount: 120}
+    {item: lead, amount: 90}
+    {item: metaglass, amount: 80}
+]
+category: turret
+buildTime: 180    # = 3 секунды (60 = 1 секунда)
+
+# электричество
+consumes: {
+    power: 3.33     # 3.33 * 60 = 200 энергии в секунду
+}
+
+# боеприпасы — только наша радиоактивная вода
+ammoTypes: {
+    radioactive-water: {
+        damage: 0.1
+        knockback: 0.2
+        status: radioactive
+        statusDuration: 180     # 3 секунды свежего эффекта
+        ammoMultiplier: 1
+    }
+}
+
+# визуальный выстрел
+shoot: {
+    type: ShootLiquid
+    liquid: radioactive-water
+    amount: 12
+    spread: 4
+    velocity: 3.4
+}
+
+coolantMultiplier: 1
+
+# анимация, эффекты
+shootEffect: {
+    type: ParticleEffect
+    particles: 8
+    length: 30
+    lifetime: 25
+    colorFrom: "66ff00"
+    colorTo: "00ff44"
+}
+
+heatColor: "66ff00"
+research: titanium

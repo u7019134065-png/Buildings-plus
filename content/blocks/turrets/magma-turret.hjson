@@ -1,0 +1,28 @@
+type: itemTurret
+name: "Magma-turret"
+description: "Тяжёлая турель мощного пробития."
+size: 3
+health: 5000
+reload: 60
+range: 150
+inaccuracy: 1
+rotateSpeed: 3
+
+requirements: [
+  titanium/120
+  plastanium/60
+]
+
+ammoTypes: {
+  plastanium: {
+      speed: 19
+      damage: 90
+      width: 9
+      height: 13
+      lifetime: 50
+  }
+}
+
+canPlaceOn: [magma]
+category: turret
+research: plastanium

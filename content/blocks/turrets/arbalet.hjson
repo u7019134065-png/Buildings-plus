@@ -1,0 +1,26 @@
+type: itemTurret
+name: "arbalet"
+description: "Турель с дерева"
+size: 3
+health: 2100
+reload: 12
+range: 220
+inaccuracy: 1
+rotateSpeed: 4
+
+requirements: [
+  tree/60
+]
+
+ammoTypes: {
+  bow: {
+      speed: 3
+      damage: 12
+      width: 9
+      height: 13
+      lifetime: 50
+  }
+}
+
+category: turret
+research: tree
