@@ -1,0 +1,21 @@
+name: radioactive
+localizedName: "Радиоактивный"
+description: "Постепенно наносит урон, каждую секунду усиливаясь."
+permanent: false
+show: true
+update: true
+
+# базовый урон
+damage: 0.4
+
+# каждый тик усиливает урон
+# эффект будет автоматически переприменён с большим уроном
+transition: radioactive
+transitionChance: 1.0
+transitionFx: none
+
+# визуализация
+effect: none
+color: "66ff00"
+speedMultiplier: 1
+reloadMultiplier: 1
