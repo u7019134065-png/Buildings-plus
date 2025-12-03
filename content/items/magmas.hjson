@@ -1,0 +1,12 @@
+type: Item
+name: магмас
+description: стрела использующая для арбалета.
+cost: 1 # Стоимость для исследования, если применимо
+color: C86F1E # Цвет предмета в шестнадцатеричном формате (серый)
+alwaysUnlocked: true # Делает предмет доступным с самого начала, если нужно
+flammability: 1.0
+radioactivity: 1.0
+explosiveness: 1.0
+frames: 4
+frameRate: 6
+research: thorium
