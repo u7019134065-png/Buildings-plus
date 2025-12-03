@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: copper-craft
+size: 3
+health: 220
+category: crafting
+requirements: [
+  copper/40
+  titanium/15
+  thorium/5
+]
+
+# Потребление (power и items)
+consumes: {
+  power: 10
+}
+
+# Рецепт/выпуск
+craftTime: 60
+outputItem: copper/1
+craftEffect: pulverizeSmall
+updateEffect: none
+
+description: "Преобразут. Требунергию."
+research: copper

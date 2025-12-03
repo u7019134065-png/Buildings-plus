@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: bow-craft
+size: 3
+health: 220
+category: crafting
+requirements: [
+  tree/40
+  lead/15
+  silicon/5
+]
+
+# Потребление (power и items)
+consumes: {
+  power: 0.6
+  items: {
+    items: [
+      tree/8
+    ]
+  }
+}
+
+# Рецепт/выпуск
+craftTime: 60
+outputItem: bow/3
+craftEffect: pulverizeSmall
+updateEffect: none
+
+description: "Преобразут. Требунергию."
+research: tree

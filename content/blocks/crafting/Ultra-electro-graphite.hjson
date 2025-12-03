@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: graphite-craft
+size: 4
+health: 220
+category: crafting
+requirements: [
+  graphite/150
+  titanium/15
+]
+
+# Потребление (power и items)
+consumes: {
+  power: 500
+}
+
+# Рецепт/выпуск
+craftTime: 60
+outputItem: graphite/8
+craftEffect: pulverizeSmall
+updateEffect: none
+
+description: "Преобразут. Требунергию."
+research: graphite

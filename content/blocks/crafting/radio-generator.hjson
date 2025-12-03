@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: radio-craft
+size: 3
+health: 220
+category: crafting
+requirements: [
+  coal/40
+  titanium/15
+  thorium/5
+]
+
+# Потребление (power и items)
+consumes: {
+  power: 1
+}
+
+# Рецепт/выпуск
+craftTime: 60
+outputLiquid: radioactive-water/5
+craftEffect: pulverizeSmall
+updateEffect: none
+
+description: "Преобразут. Требунергию."
+research: water

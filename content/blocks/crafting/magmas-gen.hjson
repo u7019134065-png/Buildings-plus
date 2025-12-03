@@ -1,0 +1,23 @@
+type: GenericCrafter
+name: graphite-craft
+size: 3
+health: 220
+category: crafting
+requirements: [
+  graphite/40
+  plastanium/50
+]
+
+# Потребление (power и items)
+consumes: {
+  power: 15
+}
+
+# Рецепт/выпуск
+craftTime: 120
+outputItem: magmas/1
+craftEffect: pulverizeSmall
+updateEffect: none
+
+description: "Преобразут. Требунергию."
+research: magmas

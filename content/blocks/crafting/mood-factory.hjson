@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: mood-craft
+size: 3
+health: 220
+category: crafting
+requirements: [
+  copper/40
+  titanium/15
+  thorium/5
+]
+
+# Потребление (power и items)
+consumes: {
+  power: 0.6
+  items: {
+    items: [
+      plastanium/8
+      titanium/8
+      thorium/8
+    ]
+  }
+}
+
+# Рецепт/выпуск
+craftTime: 60
+outputItem: mood/1
+craftEffect: pulverizeSmall
+updateEffect: none
+
+description: "Преобразут. Требунергию."
+research: mood

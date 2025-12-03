@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: sillicon-craft
+size: 3
+health: 220
+category: crafting
+requirements: [
+  silicon/40
+  titanium/15
+  thorium/5
+]
+
+# Потребление (power и items)
+consumes: {
+  power: 58
+}
+
+# Рецепт/выпуск
+craftTime: 60
+outputItem: silicon/1
+craftEffect: pulverizeSmall
+updateEffect: none
+
+description: "Преобразут. Требунергию."
+research: silicon
