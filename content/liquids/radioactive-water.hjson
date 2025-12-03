@@ -1,0 +1,21 @@
+name: radioactive-water
+localizedName: "Радиоактивная вода"
+description: "Высокоопасная жидкость, заражающая любого, кто её касается."
+
+# цвет жидкости
+color: "66ff00"
+barColor: "99ff66"
+
+heatCapacity: 0.7
+viscosity: 0.4
+flammability: 0
+explosiveness: 0
+
+# главное — эффект при контакте
+effect: radioactive
+
+# делает жидкость опасной при перекачке
+damage: 0.0
+
+# скорость течения
+temperature: 0.4
