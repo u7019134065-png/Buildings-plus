@@ -1,0 +1,30 @@
+name: kami-reconstructor
+localizedName: Ками-Реконструктор
+description: Улучшает юнитов: вспышка → камикадзе.
+
+type: Reconstructor
+size: 3
+
+research: additive-reconstructor
+
+constructTime: 60
+
+consumes: {
+  power: 3
+  items: [
+    { item: lead, amount: 20 }
+    { item: silicon, amount: 15 }
+  ]
+}
+
+upgrades: [
+  ["flare", "kamikaze"]
+]
+
+requirements: [
+  { item: copper, amount: 180 }
+  { item: lead, amount: 150 }
+  { item: silicon, amount: 120 }
+]
+
+category: units
