@@ -1,0 +1,13 @@
+type: drill
+name: "Деревянный бур"
+description: "бур полностью зделаный из дерева"
+size: 2
+tier: 1
+drillTime: 230
+itemCapacity: 30
+requirements: [
+  tree/20
+]
+
+category: production
+research: tree

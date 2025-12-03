@@ -1,0 +1,12 @@
+type: drill
+name: "[purple] Ультра быстрый бур"
+description: "Редкий экспериментальный бур."
+size: 2
+tier: 2
+drillTime: 500
+itemCapacity: 45
+requirements: [
+  copper/1000
+]
+consumes: {power: 1.8}
+category: production
