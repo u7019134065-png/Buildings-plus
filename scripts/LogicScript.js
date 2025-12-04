@@ -1,5 +1,5 @@
 const currentVersion = "1.0"; // берем из mod.hjson
-const url = "https://raw.githubusercontent.com/EEeee1406/MyMod/main/release.json";
+const url = "https://raw.githubusercontent.com/u7019134065/Buildings-plus/main/release.json";
 
 http.get(url, result => {
     const data = JSON.parse(result);
