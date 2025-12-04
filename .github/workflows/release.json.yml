@@ -1,0 +1,29 @@
+name: Auto Release JSON
+
+on:
+  push:
+    tags:
+      - 'v*'  # срабатывает на любой тег типа v1.0 или v1.0.0
+
+jobs:
+  build-release-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create release JSON
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/}
+          DESCRIPTION=$(cat RELEASE_NOTES.md | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
+          echo "{
+            \"version\": \"$VERSION\",
+            \"description\": \"$DESCRIPTION\"
+          }" > release.json
+
+      - name: Push release.json
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: GitHub Actions
+          author_email: actions@github.com
+          message: "Update release.json for $VERSION"
+          add: "release.json"
