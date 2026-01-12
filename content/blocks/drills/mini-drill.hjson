@@ -8,6 +8,5 @@ itemCapacity: 5
 requirements: [
   copper/5
 ]
-consumes: {power: 0.1}
 category: production
 research: copper
